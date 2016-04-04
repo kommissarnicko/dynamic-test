@@ -8,8 +8,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Dynamic greeting."""
-	time = datetime.now().time()
-	greeting = "Nick Williams Site, time now is " + time
+	thetime = datetime.now().time()
+	greeting = "Nick Williams Site, time now is " + str(thetime)
     return greeting
 
 
