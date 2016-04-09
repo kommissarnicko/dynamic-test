@@ -14,7 +14,7 @@ app = webapp2.WSGIApplication([
 """
 @app.route('/')
 def hello():
-    """Dynamic greeting."""
+    Dynamic greeting
 	thetime = datetime.now().time()
 	greeting = "Nick Williams Site, time now is " + str(thetime)
     return greeting
